@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="32" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="32" timestamp="2019-02-07 14:53:00" hostname="TDG-MBL-MTY0359$ - TDG-MBL-MTY0359.tiempodev.local" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\David Avalos\\Katalon Studio\\secondTry\\Reports\\New Test Suite\\20190207_145258"/>
+         <property name="logFiles" value="C:\\Users\\David Avalos\\Katalon Studio\\secondTry\\Reports\\New Test Suite\\20190207_145258\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\David Avalos\\Katalon Studio\\secondTry\\Reports\\New Test Suite\\20190207_145258\\1549572812079.png"/>
+         <property name="hostName" value="TDG-MBL-MTY0359$ - TDG-MBL-MTY0359.tiempodev.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.97"/>
+         <property name="sessionId" value="c265e4ebf914d17af298a082c47c194a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/General/Inicio de sesion_Admin" classname="Test Cases/General/Inicio de sesion_Admin" status="PASSED">
+         <system-out><![CDATA[2019-02-07 14:53:00 - [TEST_CASE][PASSED] - Test Cases/General/Inicio de sesion_Admin: Test Cases/General/Inicio de sesion_Admin
+
+2019-02-07 14:53:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("General/Abrir Navegador"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/General/Abrir Navegador' successfully
+
+2019-02-07 14:53:01 - [TEST_CASE][PASSED] - Test Cases/General/Abrir Navegador: Test Cases/General/Abrir Navegador
+
+2019-02-07 14:53:01 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://www.dentdepot.com.mx/'
+
+2019-02-07 14:53:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-07 14:53:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-07 14:53:12 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.dentdepot.com.mx/'
+
+2019-02-07 14:53:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-07 14:53:14 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-07 14:53:14 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-02-07 14:53:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-07 14:53:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Encabezado Pagina/a_Inicio de sesion"), 5): Object 'Object Repository/Encabezado Pagina/a_Inicio de sesion' is present
+
+2019-02-07 14:53:14 - [MESSAGE][PASSED] - Object 'Object Repository/Encabezado Pagina/a_Inicio de sesion' is present
+
+2019-02-07 14:53:14 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Encabezado Pagina/a_Inicio de sesion")): Object 'Object Repository/Encabezado Pagina/a_Inicio de sesion' is clickable
+
+2019-02-07 14:53:14 - [MESSAGE][PASSED] - Object 'Object Repository/Encabezado Pagina/a_Inicio de sesion' is clickable
+
+2019-02-07 14:53:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Encabezado Pagina/img_Logo"), 5): Object 'Object Repository/Encabezado Pagina/img_Logo' is present
+
+2019-02-07 14:53:14 - [MESSAGE][PASSED] - Object 'Object Repository/Encabezado Pagina/img_Logo' is present
+
+2019-02-07 14:53:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Encabezado Pagina/img_Logo")): Object 'Object Repository/Encabezado Pagina/img_Logo' is visible
+
+2019-02-07 14:53:14 - [MESSAGE][PASSED] - Object 'Object Repository/Encabezado Pagina/img_Logo' is visible
+
+2019-02-07 14:53:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pagina de inicio/div_Slider"), 5): Object 'Object Repository/Pagina de inicio/div_Slider' is present
+
+2019-02-07 14:53:14 - [MESSAGE][PASSED] - Object 'Object Repository/Pagina de inicio/div_Slider' is present
+
+2019-02-07 14:53:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/General/Abrir Navegador' successfully
+
+2019-02-07 14:53:14 - [TEST_STEP][PASSED] - click(findTestObject("Encabezado Pagina/a_Inicio de sesion")): Object: 'Object Repository/Encabezado Pagina/a_Inicio de sesion' is clicked on
+
+2019-02-07 14:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Encabezado Pagina/a_Inicio de sesion' is clicked on
+
+2019-02-07 14:53:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Inicios de sesion pop-up/input_Correo"), usuario): Keys 'davidavg' sent to object: 'Object Repository/Inicios de sesion pop-up/input_Correo'
+
+2019-02-07 14:53:16 - [MESSAGE][PASSED] - Keys 'davidavg' sent to object: 'Object Repository/Inicios de sesion pop-up/input_Correo'
+
+2019-02-07 14:53:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Inicios de sesion pop-up/input_Contrasena"), contrasena): Keys 'manhatan' sent to object: 'Object Repository/Inicios de sesion pop-up/input_Contrasena'
+
+2019-02-07 14:53:16 - [MESSAGE][PASSED] - Keys 'manhatan' sent to object: 'Object Repository/Inicios de sesion pop-up/input_Contrasena'
+
+2019-02-07 14:53:16 - [TEST_STEP][PASSED] - click(findTestObject("Inicios de sesion pop-up/button_Identificarse")): Object: 'Object Repository/Inicios de sesion pop-up/button_Identificarse' is clicked on
+
+2019-02-07 14:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Inicios de sesion pop-up/button_Identificarse' is clicked on
+
+2019-02-07 14:53:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Encabezado Pagina/div_Encabezado WordPress"), 5): Object 'Object Repository/Encabezado Pagina/div_Encabezado WordPress' is present
+
+2019-02-07 14:53:21 - [MESSAGE][PASSED] - Object 'Object Repository/Encabezado Pagina/div_Encabezado WordPress' is present
+
+2019-02-07 14:53:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Encabezado Pagina/div_Encabezado WordPress"), 5): Object 'Object Repository/Encabezado Pagina/div_Encabezado WordPress' is visible
+
+2019-02-07 14:53:21 - [MESSAGE][PASSED] - Object 'Object Repository/Encabezado Pagina/div_Encabezado WordPress' is visible
+
+2019-02-07 14:53:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("General/Cerrar Sesion"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/General/Cerrar Sesion' successfully
+
+2019-02-07 14:53:21 - [TEST_CASE][PASSED] - Test Cases/General/Cerrar Sesion: Test Cases/General/Cerrar Sesion
+
+2019-02-07 14:53:22 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Encabezado Pagina/li_Barra Admin WorPress_My Account")): Object: 'Object Repository/Encabezado Pagina/li_Barra Admin WorPress_My Account' is hovered
+
+2019-02-07 14:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Encabezado Pagina/li_Barra Admin WorPress_My Account' is hovered
+
+2019-02-07 14:53:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Encabezado Pagina/a_Cerrar Sesion"), 5): Object 'Object Repository/Encabezado Pagina/a_Cerrar Sesion' is visible
+
+2019-02-07 14:53:22 - [MESSAGE][PASSED] - Object 'Object Repository/Encabezado Pagina/a_Cerrar Sesion' is visible
+
+2019-02-07 14:53:22 - [TEST_STEP][PASSED] - click(findTestObject("Encabezado Pagina/a_Cerrar Sesion")): Object: 'Object Repository/Encabezado Pagina/a_Cerrar Sesion' is clicked on
+
+2019-02-07 14:53:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Encabezado Pagina/a_Cerrar Sesion' is clicked on
+
+2019-02-07 14:53:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Inicio de sesion wordpress/p_Mensaje Sesion Cerrada"), 5): Object 'Object Repository/Inicio de sesion wordpress/p_Mensaje Sesion Cerrada' is present
+
+2019-02-07 14:53:26 - [MESSAGE][PASSED] - Object 'Object Repository/Inicio de sesion wordpress/p_Mensaje Sesion Cerrada' is present
+
+2019-02-07 14:53:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Inicio de sesion wordpress/p_Mensaje Sesion Cerrada"), 5): Object 'Object Repository/Inicio de sesion wordpress/p_Mensaje Sesion Cerrada' is visible
+
+2019-02-07 14:53:26 - [MESSAGE][PASSED] - Object 'Object Repository/Inicio de sesion wordpress/p_Mensaje Sesion Cerrada' is visible
+
+2019-02-07 14:53:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/General/Cerrar Sesion' successfully
+
+2019-02-07 14:53:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("General/Cerrar Navegador"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/General/Cerrar Navegador' successfully
+
+2019-02-07 14:53:26 - [TEST_CASE][PASSED] - Test Cases/General/Cerrar Navegador: Test Cases/General/Cerrar Navegador
+
+2019-02-07 14:53:26 - [TEST_STEP][PASSED] - try: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Encabezado Pagina/li_Barra Admin WorPress_My Account' located by 'By.xpath: //li[@id="wp-admin-bar-my-account"]' not found
+
+2019-02-07 14:53:26 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Encabezado Pagina/li_Barra Admin WorPress_My Account"), 5, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Encabezado Pagina/li_Barra Admin WorPress_My Account' located by 'By.xpath: //li[@id="wp-admin-bar-my-account"]' not found
+
+2019-02-07 14:53:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[@id="wp-admin-bar-my-account"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-07 14:53:32 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Encabezado Pagina/li_Barra Admin WorPress_My Account' located by 'By.xpath: //li[@id="wp-admin-bar-my-account"]' not found
+[[ATTACHMENT|C:\\Users\\David Avalos\\Katalon Studio\\secondTry\\Reports\\New Test Suite\\20190207_145258\\1549572812079.png]]
+
+2019-02-07 14:53:32 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+2019-02-07 14:53:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-07 14:53:32 - [MESSAGE][PASSED] - Browser is closed
+
+2019-02-07 14:53:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/General/Cerrar Navegador' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-07 14:53:00 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/General/Inicio de sesion_Admin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

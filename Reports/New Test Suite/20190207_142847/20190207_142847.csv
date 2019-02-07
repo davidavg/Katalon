@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 71.0.3578.98,,2019-02-07 14:28:48,2019-02-07 14:29:14,25.476s,PASSED
+,,,,,,
+Test Cases/General/Inicio de sesion_Admin,Chrome 71.0.3578.98,,2019-02-07 14:28:49,2019-02-07 14:29:14,25.260s,PASSED
+"callTestCase(findTestCase(""General/Abrir Navegador""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-07 14:28:49,2019-02-07 14:28:57,8.307s,PASSED
+"click(findTestObject(""Encabezado Pagina/a_Inicio de sesion""))",Chrome 71.0.3578.98,,2019-02-07 14:28:57,2019-02-07 14:28:57,0.075s,PASSED
+"sendKeys(findTestObject(""Inicios de sesion pop-up/input_Correo""), usuario)",Chrome 71.0.3578.98,,2019-02-07 14:28:57,2019-02-07 14:28:59,2.133s,PASSED
+"sendKeys(findTestObject(""Inicios de sesion pop-up/input_Contrasena""), contrasena)",Chrome 71.0.3578.98,,2019-02-07 14:28:59,2019-02-07 14:29:00,0.075s,PASSED
+"click(findTestObject(""Inicios de sesion pop-up/button_Identificarse""))",Chrome 71.0.3578.98,,2019-02-07 14:29:00,2019-02-07 14:29:04,3.986s,PASSED
+"waitForElementPresent(findTestObject(""Encabezado Pagina/div_Encabezado WordPress""), 5)",Chrome 71.0.3578.98,,2019-02-07 14:29:04,2019-02-07 14:29:04,0.034s,PASSED
+"waitForElementVisible(findTestObject(""Encabezado Pagina/div_Encabezado WordPress""), 5)",Chrome 71.0.3578.98,,2019-02-07 14:29:04,2019-02-07 14:29:04,0.056s,PASSED
+"callTestCase(findTestCase(""General/Cerrar Sesion""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-07 14:29:04,2019-02-07 14:29:08,4.046s,PASSED
+"callTestCase(findTestCase(""General/Cerrar Navegador""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-07 14:29:08,2019-02-07 14:29:14,6.259s,PASSED
